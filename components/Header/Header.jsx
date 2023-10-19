@@ -33,7 +33,7 @@ useEffect(() =>{
                   navigation.id === active && "px-4 bg-yellow-500 text-white"
                 }`}
               >
-                <Link href={navigation.link}>{navigation.title}</Link>
+                <Link href={navigation?.link}>{navigation.title}</Link>
               </li>
             );
           })}
